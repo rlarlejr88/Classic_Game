@@ -12,9 +12,9 @@ pygame.display.set_caption( "Pass to shit!" )
 
 clock = pygame.time.Clock()
 
-background =  pygame.image.load("C:/Users/kimkd/Desktop/Classci_Game/pygame_basic/img/background.png")
+background =  pygame.image.load("C:\\Users\\kimkd\\Desktop\\Classci_Game\\pygame_basic\\img\\background.jpg")
 
-character = pygame.image.load("C:/Users/kimkd/Desktop/Classci_Game/pygame_basic/img/character.png")
+character = pygame.image.load("C:\\Users\\kimkd\\Desktop\\Classci_Game\\pygame_basic\\img\\dog.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -23,15 +23,15 @@ character_y_pos = screen_height - character_height
 
 
 to_x = 0
-character_speed = 10
+character_speed = 8
 
-shit = pygame.image.load("C:\\Users\\kimkd\\Desktop\\Classci_Game\\pygame_basic\\img\\enemy.png")
+shit = pygame.image.load("C:\\Users\\kimkd\\Desktop\\Classci_Game\\pygame_basic\\img\\shit.jpg")
 shit_size = shit.get_rect().size
 shit_width = shit_size[0]
 shit_height = shit_size[1]
 shit_x_pos = random.randint(0, screen_width - shit_width)
 shit_y_pos = 0 
-shit_speed = 5
+shit_speed = 6
 
 running = True
 while running:
